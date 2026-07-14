@@ -1,0 +1,4 @@
+[install]
+saveTextLockfile = true
+# Guarda de cadeia de suprimentos: ignora versões de pacotes publicadas há menos de um dia.
+minimumReleaseAge = 86400
