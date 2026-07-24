@@ -63,6 +63,7 @@ export function ComponentesScreen() {
 
             <Tabs.Panel value="tabela" pt="md">
               <Card withBorder radius="md" padding="lg">
+                <Table.ScrollContainer minWidth={500}>
                 <Table
                   striped
                   highlightOnHover
@@ -94,6 +95,7 @@ export function ComponentesScreen() {
                     ))}
                   </Table.Tbody>
                 </Table>
+                </Table.ScrollContainer>
               </Card>
             </Tabs.Panel>
 
